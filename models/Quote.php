@@ -117,7 +117,7 @@ class Quote{
             $this->category_id = $row;
             
             if($this->category_id === false){
-                echo json_encode(array('message' => 'category.id Not Found'));
+                echo json_encode(array('message' => 'category_id Not Found'));
                 exit();
             } else {
                 // Place Holder Data
